@@ -1,0 +1,47 @@
+body {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    background: #87CEEB;
+}
+
+.container {
+    display: inline-flexbox;
+    justify-content: center;
+    text-align: center;
+    border: 5px solid #4ACC99;
+    color: white;
+    height: 800px;
+    width: 700px;
+}
+.container2 {
+    display: inline-flexbox;
+    justify-content: center;
+    text-align: left;
+    font-size: 1.3rem;
+    padding: 20px;
+    img {
+        width: 250px;
+        height: 350px;
+        float: right;
+        padding: 0 20px 20px 0;
+    }
+}
+
+a {
+    color: #4ACC99;
+}
+
+ul {
+    padding: 0 4px 0 0;
+}
+
+li {
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    list-style-type: none;
+    padding-right: 4px;
+    border-right: 2px solid black;
+    height: 15px;
+}
